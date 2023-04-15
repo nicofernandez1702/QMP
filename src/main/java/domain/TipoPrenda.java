@@ -13,7 +13,10 @@ public class TipoPrenda {
     return this.categoria;
   }
 
+
+  final TipoPrenda ZAPATO = new TipoPrenda(CALZADO);
+
   enum Categoria {
-    PARTE_SUPERIOR , ACCESORIOS , PARTE_INFERIOR , CALZADO
+    PARTE_SUPERIOR ,ACCESORIOS,PARTE_INFERIOR,CALZADO
   }
 }

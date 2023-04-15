@@ -1,6 +1,7 @@
 package domain;
 
 import java.awt.*;
+import java.util.Objects;
 
 public class Prenda {
 
@@ -10,9 +11,9 @@ public class Prenda {
   public Color colorSecundario;
 
   public Prenda(TipoPrenda tipo, Material mat, Color color1, Color color2){
-    this.tipo = tipo;
-    this.material = mat;
-    this.colorPrincipal = color1;
-    this.colorSecundario= color2;
+    this.tipo = Objects.requireNonNull(tipo);
+    this.material = Objects.requireNonNull(mat);
+    this.colorPrincipal = Objects.requireNonNull(color1);
+    this.colorSecundario= Objects.requireNonNull(color2);
   }
 }
