@@ -14,9 +14,6 @@ public class TipoPrenda {
   }
 
 
-  final TipoPrenda ZAPATO = new TipoPrenda(CALZADO);
 
-  enum Categoria {
-    PARTE_SUPERIOR ,ACCESORIOS,PARTE_INFERIOR,CALZADO
-  }
+
 }
