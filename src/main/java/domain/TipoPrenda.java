@@ -1,5 +1,7 @@
 package domain;
 
+import ENUMS.Categoria;
+
 public class TipoPrenda {
 
   public Categoria categoria;
